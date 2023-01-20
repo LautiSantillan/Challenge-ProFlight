@@ -26,16 +26,16 @@ const Ejercicio = () => {
       <div>
         <button onClick={handlePrev}><HiArrowNarrowLeft size={40}></HiArrowNarrowLeft></button>
       </div>
-      <div className={currentImage === 0 ? 'bg-blue-500 w-36 h-36 flex justify-center items-center' : 'bg-gray-300 w-36 h-36 flex justify-center items-center'} >
+      <div className={currentImage === 0 ? 'bg-blue-500 w-36 h-36 flex justify-center items-center rounded-lg' : 'bg-gray-300 w-36 h-36 flex justify-center items-center rounded-lg'} >
         <img src={icono} alt="" width={'100px'} height='100px' />
       </div>
-      <div className={currentImage === 1 ? 'bg-blue-500 w-36 h-36 flex justify-center items-center' : 'bg-gray-300 w-36 h-36 flex justify-center items-center'} >
+      <div className={currentImage === 1 ? 'bg-blue-500 w-36 h-36 flex justify-center items-center rounded-lg' : 'bg-gray-300 w-36 h-36 flex justify-center items-center rounded-lg'} >
         <img src={icono} alt="" width={'100px'} height='100px' />
       </div>
-      <div className={currentImage === 2 ? 'bg-blue-500 w-36 h-36 flex justify-center items-center' : 'bg-gray-300 w-36 h-36 flex justify-center items-center'} >
+      <div className={currentImage === 2 ? 'bg-blue-500 w-36 h-36 flex justify-center items-center rounded-lg' : 'bg-gray-300 w-36 h-36 flex justify-center items-center rounded-lg'} >
         <img src={icono} alt="" width={'100px'} height='100px' />
       </div>
-      <div className={currentImage === 3 ? 'bg-blue-500 w-36 h-36 flex justify-center items-center' : 'bg-gray-300 w-36 h-36 flex justify-center items-center'} >
+      <div className={currentImage === 3 ? 'bg-blue-500 w-36 h-36 flex justify-center items-center rounded-lg' : 'bg-gray-300 w-36 h-36 flex justify-center items-center rounded-lg'} >
         <img src={icono} alt="" width={'100px'} height='100px' />
       </div>
       <div>
