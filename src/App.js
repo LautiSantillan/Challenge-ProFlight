@@ -1,9 +1,10 @@
-import "./App.css";
+import React from "react";
+import Ejercicio from "./components/Ejercicio";
 
 function App() {
   return (
-    <div className="App">
-      <div className="text-red-500">Holaaa</div>
+    <div>
+      <Ejercicio />
     </div>
   );
 }
